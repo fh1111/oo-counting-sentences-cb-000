@@ -19,7 +19,7 @@ class String
     if (!(self.include?("!") || self.include?("!")))
       self.split(/\.\s/).count
     else
-      self.split(/\.\s/).split('?').count
+      self.split(/\.\s/).count
     end
   end
 end
