@@ -16,10 +16,6 @@ class String
   end
 
   def count_sentences
-    if (!(self.include?("!") || self.include?("!")))
       self.split(/\.\s/).count
-    else
-      self.split(/\.\s/).count
-    end
   end
 end
