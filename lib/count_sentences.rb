@@ -20,5 +20,6 @@ class String
       self.split(/\.\s/).count
     else
       self.split(/\.\s/).split('?').count
+    end
   end
 end
